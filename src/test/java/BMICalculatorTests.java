@@ -138,9 +138,9 @@ public class BMICalculatorTests {
         String factValueSI = inputSIUnits.getAttribute("value");
         String factValueUS = inputUSUnits.getAttribute("value");
         String factValueUK = inputUKUnits.getAttribute("value");
-        assertEquals(factValueSI, "17.3", "Is not 17.30");
-        assertEquals(factValueUS, "17.59", "Is not 17.59");
-        assertEquals(factValueUK, "109.86", "Is not 109.86");
+        assertEquals(factValueSI, "17.3", "Fact result is different from expect");
+        assertEquals(factValueUS, "17.59", "Fact result is different from expect");
+        assertEquals(factValueUK, "109.86", "Fact result is different from expect");
 
     }
 
